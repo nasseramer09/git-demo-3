@@ -1,5 +1,7 @@
 public class TestClass {
-    public void Testclass(){
-        System.out.println("Hello from this class");
+    public void Testclass(String name){
+
+
+        System.out.println("Hello " + name.toUpperCase());
     }
 }
